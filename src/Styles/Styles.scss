@@ -1,0 +1,198 @@
+:root {
+  --main-blue: #005b96;
+  --dark-blue: #001f96;
+  --black-blue: #000e16;
+  --light-blue: #008feb;
+}
+body {
+  width: 100%;
+  margin: 0%;
+  background-image: linear-gradient(
+    45deg,
+    #005b96 0%,
+    #001f96 25%,
+    #000e16 50%,
+    #001f96 75%,
+    #008feb 100%
+  );
+  background-repeat: no-repeat;
+  color: white;
+}
+nav {
+  background: rgba(255, 255, 255, 0.198);
+}
+.link-list {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+.link-list:hover {
+  color: rgb(104, 104, 104);
+}
+.navbar-list {
+  display: flex;
+  justify-content: center;
+  height: 70px;
+}
+.navbar-page {
+  margin-top: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 24px;
+}
+.navbar-page:hover {
+  font-size: 26px;
+  color: rgb(104, 104, 104);
+}
+.main-container {
+  display: grid;
+  grid-template-areas:
+    'pre'
+    'post'
+    'footer';
+  grid-template-rows: 850px auto 50px;
+  grid-template-columns: auto;
+}
+footer {
+  grid-area: footer;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+footer h1 {
+  font-size: 24px;
+}
+.mid-text {
+  width: 100%;
+  height: 100%;
+}
+.pre {
+  width: 100%;
+  grid-area: pre;
+}
+.pre-container {
+  display: flex;
+  justify-content: center;
+}
+.pre-content-text {
+  color: white;
+  text-align: center;
+  margin-top: 10%;
+  width: 100%;
+}
+.pre-content-container {
+  width: 50%;
+}
+.post {
+  grid-area: post;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+.post-blured {
+  margin-top: -0.5%;
+  width: 90%;
+  height: 100%;
+  background-color: black;
+  border-radius: 25px;
+}
+.carousel-margin {
+  margin-top: 10%;
+}
+.carousel-img {
+  height: 400px;
+  width: 100%;
+}
+.post-container {
+  width: 100%;
+}
+.post-title {
+  margin-top: 5%;
+  text-align: center;
+  width: 100%;
+}
+.post-cards {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+}
+.post-card {
+  width: 18rem;
+  margin: 0 40px;
+  color: black;
+}
+//SOCIALMEDIA
+.social-media {
+  margin-top: 10%;
+  margin-left: -2%;
+  display: flex;
+  justify-content: center;
+}
+.socialmedia-list {
+  position: relative;
+  display: flex;
+}
+.socialmedia-list li {
+  position: relative;
+  list-style: none;
+  margin: 0 20px;
+  cursor: pointer;
+}
+.socialmedia-list li a {
+  text-decoration: none;
+}
+.socialmedia-list li a .fa-brands {
+  font-size: 4em;
+  color: #222;
+}
+.socialmedia-list li a::before {
+  font-family: 'FontAwesome';
+  position: absolute;
+  top: -18px;
+  left: 0;
+  font-size: 4em;
+  height: 0;
+  overflow: hidden;
+  transition: 0.5s ease-in-out;
+}
+
+.socialmedia-list li:nth-child(1) a::before {
+  content: '\f08c';
+  color: #0e76a8;
+  border-bottom: 4px solid #0e76a8;
+}
+.socialmedia-list li:nth-child(2) a::before {
+  content: '\f1b4';
+  color: #053eff;
+  border-bottom: 4px solid #053eff;
+}
+.socialmedia-list li:nth-child(3) a::before {
+  content: '\f09b';
+  color: #6e5494;
+  border-bottom: 4px solid #6e5494;
+}
+.socialmedia-list li:hover a::before {
+  height: 140%;
+}
+//SOCIALMEDIA
+@media (max-width: 700px) {
+  .post-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .post-card {
+    margin-top: 40px;
+    width: 18rem;
+    color: black;
+  }
+  .pre-content-text {
+    color: white;
+    text-align: center;
+    margin-top: 10%;
+    width: 100%;
+    font-size: 18px;
+  }
+}
