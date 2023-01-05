@@ -20,6 +20,18 @@ export default function Router() {
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/Curriculum" element={<Cv />} />
+          <Route
+            path="*"
+            element={
+              <div className="e">
+                <Link to="/" className="l">
+                  <h1>
+                    there's nothing here, you can go back where you came from.
+                  </h1>
+                </Link>
+              </div>
+            }
+          />
         </Routes>
         <Footer />
       </BrowserRouter>

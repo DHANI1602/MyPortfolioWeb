@@ -28,19 +28,24 @@ const Navbar = () => {
             </a>
             <ul class="dropdown-menu">
               <li>
-                <a class="dropdown-item" href="#">
+                <a id="nav-all" class="dropdown-item">
+                  All
+                </a>
+              </li>
+              <li>
+                <Link class="dropdown-item disabled" to="/Curriculum/Web">
                   Web Designer
-                </a>
+                </Link>
               </li>
               <li>
-                <a class="dropdown-item" href="#">
+                <Link class="dropdown-item disabled" to="/Curriculum/GD">
                   Game Design
-                </a>
+                </Link>
               </li>
               <li>
-                <a class="dropdown-item" href="#">
+                <Link class="dropdown-item disabled" to="/Curriculum/3D">
                   3D Artist
-                </a>
+                </Link>
               </li>
             </ul>
           </l1>
