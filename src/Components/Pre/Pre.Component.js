@@ -7,7 +7,7 @@ const Pre = () => {
       <div className="pre-content-container">
         <h1 className="pre-content-text">
           this website is elaborated to show my skills and projects as a Game
-          Designer, full-stack developer and 3D modeller and artist.
+          Designer, front-end developer and 3D modeller and artist.
         </h1>
         <section id="section10" class="demo">
           <a>
