@@ -46,7 +46,7 @@ const Carousel = () => {
         </div>
         <div className="carousel-item" data-bs-interval="2000">
           <img
-            src="https://firebasestorage.googleapis.com/v0/b/portfolio-b6d79.appspot.com/o/Resources%2F558715.jpg?alt=media&token=1ab2f70d-3a8c-46e3-865e-19b76ed4dc7a"
+            src="https://firebasestorage.googleapis.com/v0/b/portfolio-b6d79.appspot.com/o/Resources%2FGit.png?alt=media&token=9f27d390-9569-41f1-80e7-35741a3230c6"
             className="d-block carousel-img"
             alt="..."
           />

@@ -15,7 +15,7 @@ const Post = () => {
       <div className="post-cards">
         <Card
           src="https://firebasestorage.googleapis.com/v0/b/portfolio-b6d79.appspot.com/o/Web%2FWebSample.png?alt=media&token=704ee00d-0535-4c13-a91e-870a9226c0f7"
-          title="full-stack developer"
+          title="Front-end developer"
           content="in my web developer portfolio you can see the different websites I have made, you can find from movie websites to fully functional social networks."
           bContent="Webs"
           effect="fade-left"

@@ -13,10 +13,6 @@ const A3D = () => {
         content="Autodesk Maya"
       />
       <CvTech
-        src="https://firebasestorage.googleapis.com/v0/b/portfolio-b6d79.appspot.com/o/Logos3D%2FVRay.png?alt=media&token=2866255f-dc3a-4aa4-a882-44319c635ec4"
-        content="Autodesk VRay"
-      />
-      <CvTech
         src="https://firebasestorage.googleapis.com/v0/b/portfolio-b6d79.appspot.com/o/Logos3D%2Fpainter.png?alt=media&token=a1cf728f-da6d-491b-9dda-3ab7b1fa99d4"
         content="Substance Painter"
       />

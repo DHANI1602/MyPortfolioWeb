@@ -21,10 +21,6 @@ const WD = () => {
         content="ReactJS"
       />
       <CvTech
-        src="https://firebasestorage.googleapis.com/v0/b/portfolio-b6d79.appspot.com/o/Logos%2FAngularJS-1200x1200.png?alt=media&token=213bea87-002d-49f1-913c-6d6e9dda02fe"
-        content="AngularJS"
-      />
-      <CvTech
         src="https://firebasestorage.googleapis.com/v0/b/portfolio-b6d79.appspot.com/o/Logos%2FNodeJS.png?alt=media&token=fe9cba5a-1c51-4b38-8c70-c58a0ea4c9ae"
         content="NodeJS"
       />
@@ -39,10 +35,6 @@ const WD = () => {
       <CvTech
         src="https://firebasestorage.googleapis.com/v0/b/portfolio-b6d79.appspot.com/o/Logos%2FSQL.png?alt=media&token=8f1bea2f-a2b5-4e00-8153-9a4a9ccd2611"
         content="MySQL"
-      />
-      <CvTech
-        src="https://firebasestorage.googleapis.com/v0/b/portfolio-b6d79.appspot.com/o/Logos%2FMongo.png?alt=media&token=5fa8ddef-585b-4bd1-a5c7-4494689ac95a"
-        content="MongoDB"
       />
       <CvTech
         src="https://firebasestorage.googleapis.com/v0/b/portfolio-b6d79.appspot.com/o/Logos%2FGitHub.png?alt=media&token=c7e7f10f-9548-459f-8212-bcba5ec811af"

@@ -269,6 +269,54 @@ footer h1 {
 }
 //SOCIALMEDIA
 //CV
+@media (max-width: 730px) {
+  .cv-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .cv-photo {
+    margin-top: 30px;
+  }
+
+  .cv-list {
+    margin-top: 20px;
+    list-style: square;
+  }
+  .cv-title {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .cv-sub {
+    margin-top: 25px;
+  }
+  .cv-tech-title {
+    margin-top: 50px;
+    text-align: center;
+  }
+  .cv-tech-content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .cvtech {
+    margin: 40px 40px;
+    text-align: center;
+    transition: all 200ms;
+    position: relative;
+  }
+  .cvtech:hover {
+    transform: scale(1.15);
+  }
+  .cvtech-img {
+    border-radius: 50%;
+  }
+  .cvtech-text {
+    margin-top: 10px;
+  }
+}
 .cv-container {
   display: flex;
   flex-flow: row wrap;
@@ -279,7 +327,7 @@ footer h1 {
   margin-top: 30px;
 }
 .cv-content {
-  margin-left: 40px;
+  margin-left: 20px;
 }
 .cv-list {
   margin-top: 20px;
@@ -293,7 +341,7 @@ footer h1 {
   margin-top: 25px;
 }
 .cv-sub-list {
-  margin-left: 40px;
+  margin-left: 10px;
 }
 .cv-tech-title {
   margin-top: 50px;
