@@ -92,10 +92,17 @@ footer h1 {
   display: flex;
   justify-content: center;
 }
-.pre-content-text {
+.pre-content-name {
   color: white;
   text-align: center;
   margin-top: 10%;
+  width: 100%;
+  font-size: 7vw;
+  font-weight: bold;
+}
+.pre-content-text {
+  color: white;
+  text-align: center;
   width: 100%;
   font-size: 3vw;
 }
@@ -106,6 +113,13 @@ footer h1 {
     margin-top: 10%;
     width: 100%;
     font-size: 5vw;
+  }
+  .pre-content-name {
+    color: white;
+    text-align: center;
+    margin-top: 10%;
+    width: 100%;
+    font-size: 7vw;
   }
 }
 .pre-content-container {

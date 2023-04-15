@@ -21,10 +21,6 @@ const A3D = () => {
         content="Substance Designer"
       />
       <CvTech
-        src="https://firebasestorage.googleapis.com/v0/b/portfolio-b6d79.appspot.com/o/Logos3D%2FToolbag.png?alt=media&token=9fba0de3-2b18-4dd7-abd7-3c3c74b14281"
-        content="Marmoset Toolbag"
-      />
-      <CvTech
         src="https://firebasestorage.googleapis.com/v0/b/portfolio-b6d79.appspot.com/o/Logos3D%2FAdobe_Photoshop_CC_icon.svg.png?alt=media&token=a8bd8899-23e5-48bf-b276-075fdad36941"
         content="Adobe Photoshop"
       />
